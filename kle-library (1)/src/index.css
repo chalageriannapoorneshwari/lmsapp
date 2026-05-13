@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-f1-red: #FF1801;
+  --color-f1-green: #00D2BE;
+  --color-f1-black: #15151E;
+  --color-f1-carbon: #1F1F27;
+  --color-f1-slate: #38383F;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-f1-black font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display uppercase italic tracking-tighter;
+  }
+}
+
+.f1-slant {
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+.f1-card-hover {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+}
+
+.f1-red-button {
+  @apply bg-f1-red text-white px-6 py-2 rounded-sm font-bold uppercase italic text-sm transition-transform active:scale-95;
+}
+
+.f1-blue-button {
+  @apply bg-blue-600 text-white px-6 py-2 rounded-sm font-bold uppercase italic text-sm transition-transform active:scale-95;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.staff-grid {
+  background-image: 
+    linear-gradient(rgba(30, 41, 59, 0.5) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(30, 41, 59, 0.5) 2px, transparent 2px);
+  background-size: 50px 50px;
+}
