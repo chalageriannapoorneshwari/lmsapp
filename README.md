@@ -1,7 +1,5 @@
 # Application for library system
 
-HOME <img width="1176" height="609" alt="Screenshot 2026-05-13 161904" src="https://github.com/user-attachments/assets/69879429-27dc-467d-83cb-6ef15074fd16" 
-
 login <img width="335" height="396" alt="Screenshot 2026-05-13 162643" src="https://github.com/user-attachments/assets/3861c724-64e2-4482-94c3-529c313fbbf6" />
 
 Register <img width="500" height="472" alt="Screenshot 2026-05-13 164456" src="https://github.com/user-attachments/assets/2943b00c-cc02-414f-b849-14544393a2c8" />
